@@ -1,9 +1,4 @@
-import React from 'react'
-import styled from 'styled-components'
-import { Link } from 'react-router-dom'
-const ErrorPage = () => {
-  return <h4>error page</h4>
-}
+import styled from "styled-components";
 
 const Wrapper = styled.main`
   background: var(--clr-primary-10);
@@ -18,6 +13,6 @@ const Wrapper = styled.main`
     text-transform: none;
     margin-bottom: 2rem;
   }
-`
+`;
 
-export default ErrorPage
+export default Wrapper;
