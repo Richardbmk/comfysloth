@@ -2,7 +2,7 @@ import FeaturedProducts from "./FeaturedProducts";
 import Navbar from "./navbar/Navbar";
 import CartButtons from "./cartButtons/CartButtons";
 import Footer from "./footer/Footer";
-import Sidebar from "./Sidebar";
+import Sidebar from "./sidebar/Sidebar";
 import Hero from "./Hero";
 import Services from "./Services";
 import Contact from "./Contact";
