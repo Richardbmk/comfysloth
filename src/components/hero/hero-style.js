@@ -1,12 +1,4 @@
-import React from 'react'
-import styled from 'styled-components'
-import { Link } from 'react-router-dom'
-import heroBcg from '../assets/hero-bcg.jpeg'
-import heroBcg2 from '../assets/hero-bcg-2.jpeg'
-
-const Hero = () => {
-  return <h4>hero</h4>
-}
+import styled from "styled-components";
 
 const Wrapper = styled.section`
   min-height: 60vh;
@@ -58,7 +50,7 @@ const Wrapper = styled.section`
       border-radius: var(--radius);
     }
     .img-container::before {
-      content: '';
+      content: "";
       position: absolute;
       width: 10%;
       height: 80%;
@@ -68,6 +60,6 @@ const Wrapper = styled.section`
       border-radius: var(--radius);
     }
   }
-`
+`;
 
-export default Hero
+export default Wrapper;
