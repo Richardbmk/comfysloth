@@ -1,4 +1,4 @@
-import FeaturedProducts from "./FeaturedProducts";
+import FeaturedProducts from "./featuredProducts/FeaturedProducts";
 import Navbar from "./navbar/Navbar";
 import CartButtons from "./cartButtons/CartButtons";
 import Footer from "./footer/Footer";
@@ -6,8 +6,8 @@ import Sidebar from "./sidebar/Sidebar";
 import Hero from "./hero/Hero";
 import Services from "./services/Services";
 import Contact from "./contact/Contact";
-import Loading from "./Loading";
-import Error from "./Error";
+import Loading from "./loading/Loading";
+import Error from "./error/Error";
 import ProductImages from "./ProductImages";
 import AddToCart from "./AddToCart";
 import Filters from "./Filters";
