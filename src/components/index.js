@@ -13,7 +13,7 @@ import AddToCart from './AddToCart';
 import Filters from './Filters';
 import ProductList from './ProductList';
 import Sort from './Sort';
-import Stars from './Stars';
+import Stars from './stars/Stars';
 import CartContent from './CarContent';
 import PageHero from './pageHero/PageHero';
 import StripeCheckout from './StripeCheckout';
