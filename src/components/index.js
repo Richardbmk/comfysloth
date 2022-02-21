@@ -9,7 +9,7 @@ import Contact from './contact/Contact';
 import Loading from './loading/Loading';
 import Error from './error/Error';
 import ProductImages from './productImages/ProductImages';
-import AddToCart from './AddToCart';
+import AddToCart from './addToCart/AddToCart';
 import Filters from './Filters';
 import ProductList from './ProductList';
 import Sort from './Sort';
