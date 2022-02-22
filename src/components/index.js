@@ -11,7 +11,7 @@ import Error from './error/Error';
 import ProductImages from './productImages/ProductImages';
 import AddToCart from './addToCart/AddToCart';
 import Filters from './Filters';
-import ProductList from './ProductList';
+import ProductList from './productList/ProductList';
 import Sort from './Sort';
 import Stars from './stars/Stars';
 import CartContent from './CarContent';
