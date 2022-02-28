@@ -1,10 +1,4 @@
-import React from "react";
-import styled from "styled-components";
-import Product from "./product/Product";
-
-const GridView = () => {
-  return <h4>Grid View</h4>;
-};
+import styled from 'styled-components';
 
 const Wrapper = styled.section`
   img {
@@ -28,4 +22,4 @@ const Wrapper = styled.section`
   }
 `;
 
-export default GridView;
+export default Wrapper;
