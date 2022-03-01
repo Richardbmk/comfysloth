@@ -1,4 +1,4 @@
-import styled from './CartItem';
+import styled from 'styled-components';
 
 const Wrapper = styled.article`
   .subtotal {
