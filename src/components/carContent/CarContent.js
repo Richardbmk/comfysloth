@@ -3,7 +3,7 @@ import Wrapper from './carContent-style';
 import { useCartContext } from '../../context/cart_context';
 import { Link } from 'react-router-dom';
 import CartColumns from './../cartColumns/CartColumns';
-import CartItem from './../CartItem';
+import CartItem from './../cartItem/CartItem';
 import CartTotals from './../cartTotals/CartTotals';
 
 const CartContent = () => {
