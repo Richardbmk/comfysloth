@@ -14,7 +14,7 @@ import Filters from './filters/Filters';
 import ProductList from './productList/ProductList';
 import Sort from './sort/Sort';
 import Stars from './stars/Stars';
-import CartContent from './CarContent';
+import CartContent from './carContent/CarContent';
 import PageHero from './pageHero/PageHero';
 import StripeCheckout from './StripeCheckout';
 
