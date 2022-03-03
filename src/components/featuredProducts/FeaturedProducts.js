@@ -1,10 +1,10 @@
-import React from "react";
-import { useProductsContext } from "../../context/products_context";
-import { Link } from "react-router-dom";
-import Wrapper from "./featuredProducts-style";
-import Error from ".././error/Error";
-import Loading from ".././loading/Loading";
-import Product from ".././product/Product";
+import React from 'react';
+import { useProductsContext } from '../../context/products_context';
+import { Link } from 'react-router-dom';
+import Wrapper from './featuredProducts-style';
+import Error from '.././error/Error';
+import Loading from '.././loading/Loading';
+import Product from '.././product/Product';
 
 const FeaturedProducts = () => {
   const {
@@ -19,16 +19,19 @@ const FeaturedProducts = () => {
     return <Error />;
   }
   return (
-    <Wrapper className="section">
-      <div className="title">
+    <Wrapper className='section'>
+      <div className='title'>
         <h2>featured products</h2>
-        <div className="underline"></div>
+        <div className='underline'></div>
       </div>
-      <div className="section-center featured">
+      <div className='section-center featured'>
         {featured.slice(0, 3).map((product) => {
           return <Product key={product.id} {...product} />;
         })}
       </div>
+      <Link to='products' className='btn'>
+        All products
+      </Link>
     </Wrapper>
   );
 };
