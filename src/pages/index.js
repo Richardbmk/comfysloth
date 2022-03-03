@@ -6,7 +6,7 @@ import Cart from './cartPage/CartPage';
 import Checkout from './checkoutPage/CheckoutPage';
 import Error from './errorPage/ErrorPage';
 import PrivateRoute from './PrivateRoute';
-import AuthWrapper from './AuthWrapper';
+import AuthWrapper from './authWrapper/AuthWrapper';
 
 export {
   Home,
