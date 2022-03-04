@@ -16,6 +16,34 @@ import { useHistory } from 'react-router-dom';
 const promise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
 
 const CheckoutForm = () => {
+  const { cart, total_amount, shipping_fee, clearCart } = useCartContext();
+  const { myUser } = useUserContext();
+  const history = useHistory();
+
+  // STRIPE STUFF
+  const [succeeded, setSucceeded] = useState();
+  const [error, setError] = useState(null);
+  const [processing, setProcessing] = useState();
+  const [disabled, setDisabled] = useState(true);
+
+  const cardStyle = {
+    style: {
+      base: {
+        color: '#32325d',
+        fontFamily: 'Arial, sans-serif',
+        fontSmoothing: 'antialiased',
+        fontSize: '16px',
+        '::placeholder': {
+          color: '#32325d',
+        },
+      },
+      invalid: {
+        color: '#fa755a',
+        iconColor: '#fa755a',
+      },
+    },
+  };
+
   return <h4>hello from Stripe Checkout </h4>;
 };
 
