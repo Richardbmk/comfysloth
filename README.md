@@ -45,12 +45,46 @@
 
 ## Components
 
--
+- addToCart
+- amountButtons
+- carContent
+- cartButtons
+- cartColumns
+- cartItem
+- cartTotals
+- contact
+- error
+- featuredProducts
+- filters
+- gridView
+- hero
+- listView
+- loading
+- navbar
+- pageHero
+- product
+- productImage
+- productList
+- services
+- sidebar
+- sort
+- stars
+- stripeCheckout
 
 ## Page Components
 
+- aboutPage
+- authWrapper
+- cartPage
+- checkoutPage
+- errorPage
+- homePage
+- productsPage
+- singleProductPage
+
 ## Folder structure
 
+```
 C:.
 | .env_example
 | .gitignore
@@ -240,6 +274,7 @@ C:.
 \---utils
 constants.js
 helpers.js
+```
 
 # Server / Backend
 
