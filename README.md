@@ -290,11 +290,17 @@ API provided by the course:
 ###### Home Page
 
 <img src="./public/home-page.jpeg"/>
+
 ###### Products Page
+
 <img src="./public/products-page.jpeg"/>
+
 ###### Product Page
+
 <img src="./public/single-product-page.jpeg"/>
+
 ###### About Page
+
 <img src="./public/about-page.jpeg"/>
 
 [Wirefame in PDF](https://www.notion.so/d198c02bc7894d558c27d7edb4044845?v=e02f9810e1fa425e8158acc67b1d99c2)
@@ -304,7 +310,7 @@ API provided by the course:
 
 [Task organization](https://www.notion.so/d198c02bc7894d558c27d7edb4044845?v=e02f9810e1fa425e8158acc67b1d99c2)
 
-<img src="./public/notion.png"/>
+<img src="./public/notion.PNG"/>
 
 ## How to run it in local
 
