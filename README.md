@@ -1,5 +1,7 @@
 # Comfy Store App
 
+![Comfy Store App](./public/ezgif-4-c681ecd364.gif)
+
 ## Description
 
 ## User Stories
@@ -285,7 +287,24 @@ API provided by the course:
 
 ## Wireframes
 
+###### Home Page
+
+<img src="./public/home-page.jpeg"/>
+###### Products Page
+<img src="./public/products-page.jpeg"/>
+###### Product Page
+<img src="./public/single-product-page.jpeg"/>
+###### About Page
+<img src="./public/about-page.jpeg"/>
+
+[Wirefame in PDF](https://www.notion.so/d198c02bc7894d558c27d7edb4044845?v=e02f9810e1fa425e8158acc67b1d99c2)
+[Lucidchart Link](https://lucid.app/lucidchart/63c396d8-429e-43c2-96d3-3aaf7e3f78fa/edit?invitationId=inv_3de81357-160a-40b4-9ffe-addfb3a3c2ba)
+
 ### Notion
+
+[Task organization](https://www.notion.so/d198c02bc7894d558c27d7edb4044845?v=e02f9810e1fa425e8158acc67b1d99c2)
+
+<img src="./public/notion.png"/>
 
 ## How to run it in local
 
