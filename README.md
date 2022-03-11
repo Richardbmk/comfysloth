@@ -1,6 +1,8 @@
 # Comfy Store App
 
-![Comfy Store App](./public/ezgif-4-c681ecd364.gif)
+<p align="center">
+  <img src="./public/ezgif-4-c681ecd364.gif" alt="Comfy Store App"/>
+</p>
 
 ## Description
 
@@ -303,7 +305,8 @@ API provided by the course:
 
 <img src="./public/about-page.jpeg"/>
 
-[Wirefame in PDF](https://www.notion.so/d198c02bc7894d558c27d7edb4044845?v=e02f9810e1fa425e8158acc67b1d99c2)
+[Wirefame in PDF](./public/WebAppComfySloth.pdf)
+
 [Lucidchart Link](https://lucid.app/lucidchart/63c396d8-429e-43c2-96d3-3aaf7e3f78fa/edit?invitationId=inv_3de81357-160a-40b4-9ffe-addfb3a3c2ba)
 
 ### Notion
