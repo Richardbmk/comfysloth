@@ -1,12 +1,12 @@
-import React from "react";
-import Wrapper from "./services-style";
-import { services } from "../../utils/constants";
+import React from 'react';
+import Wrapper from './services-style';
+import { services } from '../../utils/constants';
 
 const Services = () => {
   return (
     <Wrapper>
-      <div className="section-center">
-        <article className="header">
+      <div className='section-center'>
+        <article className='header'>
           <h3>
             custom furniture <br />
             built only for you
@@ -17,12 +17,12 @@ const Services = () => {
             incidunt iste reprehenderit?
           </p>
         </article>
-        <div className="services-center">
+        <div className='services-center'>
           {services.map((services) => {
             const { id, icon, title, text } = services;
             return (
-              <article className="service">
-                <span className="icon">{icon}</span>
+              <article className='service' key={id}>
+                <span className='icon'>{icon}</span>
                 <h4>{title}</h4>
                 <p>{text}</p>
               </article>

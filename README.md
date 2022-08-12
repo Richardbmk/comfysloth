@@ -24,6 +24,8 @@
 
 - Deployment to S3 as a serverless web App
 
+- Integrate with aws cloudfront (error pages, Geographic Restriction). Sample lab: https://play.whizlabs.com/site/task_details?lab_type=1&task_id=9&quest_id=37
+
 - API Payment Gateway with Stripe and AWS Lambda.
 
 - CI/CD Pipeline for the Frontend Application
@@ -291,19 +293,27 @@ API provided by the course:
 
 ###### Home Page
 
-<img src="./public/home-page.jpeg"/>
+<p align="center">
+  <img src="./public/home-page.jpeg"/>
+</p>
 
 ###### Products Page
 
-<img src="./public/products-page.jpeg"/>
+<p align="center">
+  <img src="./public/products-page.jpeg"/>
+</p>
 
 ###### Product Page
 
-<img src="./public/single-product-page.jpeg"/>
+<p align="center">
+  <img src="./public/single-product-page.jpeg"/>
+</p>
 
 ###### About Page
 
-<img src="./public/about-page.jpeg"/>
+<p align="center">
+  <img src="./public/about-page.jpeg"/>
+</p>
 
 [Wirefame in PDF](./public/WebAppComfySloth.pdf)
 
@@ -313,7 +323,9 @@ API provided by the course:
 
 [Task organization](https://www.notion.so/d198c02bc7894d558c27d7edb4044845?v=e02f9810e1fa425e8158acc67b1d99c2)
 
-<img src="./public/notion.PNG"/>
+<p align="center">
+  <img src="./public/notion.PNG"/>
+</p>
 
 ## How to run it in local
 
