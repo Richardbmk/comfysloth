@@ -1,6 +1,7 @@
 import React from 'react';
 import Wrapper from './pageHero-style';
 import { Link } from 'react-router-dom';
+
 const PageHero = ({ title, product }) => {
   return (
     <Wrapper>

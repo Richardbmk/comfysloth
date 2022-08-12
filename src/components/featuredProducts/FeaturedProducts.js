@@ -12,12 +12,15 @@ const FeaturedProducts = () => {
     products_error: error,
     featured_products: featured,
   } = useProductsContext();
+
   if (loading) {
     return <Loading />;
   }
+
   if (error) {
     return <Error />;
   }
+
   return (
     <Wrapper className='section'>
       <div className='title'>
