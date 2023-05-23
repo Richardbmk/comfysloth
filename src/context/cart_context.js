@@ -33,7 +33,8 @@ export const CartProvider = ({ children }) => {
   const addToCart = (id, color, amount, product) => {
     dispatch({ type: ADD_TO_CART, payload: { id, color, amount, product } });
   };
-  //remove item
+
+  // remove item
   const removeItem = (id) => {
     dispatch({ type: REMOVE_CART_ITEM, payload: id });
   };

@@ -12,6 +12,7 @@ const AuthWrapper = ({ children }) => {
       </Wrapper>
     );
   }
+
   if (error) {
     return (
       <Wrapper>
@@ -19,6 +20,7 @@ const AuthWrapper = ({ children }) => {
       </Wrapper>
     );
   }
+
   return <div>{children}</div>;
 };
 
