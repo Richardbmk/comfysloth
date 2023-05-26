@@ -1,5 +1,5 @@
 import React from 'react';
-import NavContainer from './navbar-style';
+import NavContainer from './Navbar-style';
 import logo from '../../assets/logo.svg';
 import { FaBars } from 'react-icons/fa';
 import { Link } from 'react-router-dom';

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Wrapper from './productImages-style';
+import Wrapper from './ProductImages-style';
 
 const ProductImages = ({ images = [{ url: '' }] }) => {
   const [main, setMain] = useState(images[0]);
