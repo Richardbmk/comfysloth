@@ -1,8 +1,8 @@
 {
-  "name": "lambda-functions",
+  "name": "lambda-function",
   "version": "1.0.0",
   "description": "simple project for the stripe function",
-  "main": "index.mjs",
+  "main": "index.js",
   "dependencies": {
     "stripe": "^8.130.0"
   },
