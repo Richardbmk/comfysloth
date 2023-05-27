@@ -29,3 +29,5 @@ $ aws lambda create-function --function-name storeApp-stripe --zip-file fileb://
 6. In the "Key" field, enter `STRIPE_SECRET_KEY`. In the "Value" field, enter your actual Stripe secret key.
 
 7. Click on the "Save" button to save your changes.
+
+Delete everything except de zip file to avoid npm conflicts with the node modules.
