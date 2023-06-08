@@ -1,4 +1,4 @@
-# Instructions of how to deploy the lambda function to AWS
+# Instructions of how to deploy the lambda functions to AWS
 
 The official docs with step by step can be found [here](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-awscli.html)
 
