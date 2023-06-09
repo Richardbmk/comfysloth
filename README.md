@@ -38,11 +38,11 @@ Password: Password_12345
 
 ## Backlog
 
-- Deployment to S3 as a serverless web App.
-- Integrate with aws cloudfront.
-- API Payment Gateway with Stripe and AWS Lambda.
-- CI/CD Pipeline for the Frontend Application.
-- Airtable as a Backend for add fetch and adding new Products.
+- Deployment to S3 as a serverless web App. ✔
+- Integrate with aws cloudfront. ✔
+- API Payment Gateway with Stripe and AWS Lambda. ✔
+- CI/CD Pipeline for the Frontend Application. ✔
+- Airtable as a Backend for add fetch and adding new Products with lambda functions. ✔
 
 # Client / Frontend
 
