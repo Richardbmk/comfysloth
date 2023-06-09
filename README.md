@@ -336,6 +336,6 @@ Using Artible, AWS Lambda functions and AWS API Gateway
 
 ## How to run it in local
 
-After cloning the repo, install the dependencies using npm install. Start the application with npm start. Make sure to setup environment variables as per the .env_example (should be .env).
+After cloning the repo, install the dependencies using `npm install`. Start the application with `npm start`. Make sure to setup environment variables as per the .env_example (should be `.env`).
 
-In the folder with the name of lambda-functions you will find instructions of how to deploy the lambda function I use to deploy the application
+In the folder with the name of `lambda-functions` you will find instructions of how to deploy the lambda function I use to deploy the application
