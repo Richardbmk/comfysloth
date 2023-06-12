@@ -16,11 +16,12 @@ Included in this repository, you'll find AWS Lambda functions used for Stripe an
 
 Please refer to individual component folders for specific functionality, structure, and implementation details.
 
-Get Acces to the Store [here](d1zhh0zrxyj2ke.cloudfront.net).
+Get Acces to the Store [here](https://d1zhh0zrxyj2ke.cloudfront.net/).
 
 No need to register if you don't want to, Just use this credentials:
-User: demo_user@gmail.com
-Password: Password_12345
+
+- User: demo_user@gmail.com
+- Password: Password_12345
 
 ## User Stories
 
